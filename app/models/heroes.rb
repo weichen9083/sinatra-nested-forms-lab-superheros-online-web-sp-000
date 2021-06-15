@@ -6,7 +6,7 @@ class Heroes
     @name = params[:name]
     @power = params[:power]
     @bio = params[:bio]
-    HEROES << self
+    @all << self
   end
 
   def self.all
